@@ -1,0 +1,41 @@
+:root{
+    --my-black:#222831;
+    --my-white:#dddddd;
+    --my-blue:#30475e;
+    --my-orange:#f05454;
+    --Robo: 'Roboto Condensed', sans-serif;
+    --Ubuntu:'Ubuntu', sans-serif;
+    --Monster:'Montserrat', sans-serif;
+    --Merri:'Merriweather', serif;
+    --Open:'Open Sans', sans-serif;
+    --Oswald:'Oswald', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background-color: var(--my-black);
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+   
+}
+.brand-logo{
+    width: 2rem;
+}
+.brand h1{
+    color:white;
+    font-family: var(--Ubuntu);
+    padding-left: 10px;
+}
+.PlayCircleOutlineIcon{
+    color: var(--my-orange);
+}
+.hub-icon{
+    color: var(--my-blue);
+}

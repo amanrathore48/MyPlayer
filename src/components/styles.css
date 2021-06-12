@@ -1,0 +1,156 @@
+:root{
+    --my-black:#222831;
+    --my-white:#dddddd;
+    --my-blue:#30475e;
+    --my-orange:#f05454;
+    --Robo: 'Roboto Condensed', sans-serif;
+    --Ubuntu:'Ubuntu', sans-serif;
+    --Monster:'Montserrat', sans-serif;
+    --Merri:'Merriweather', serif;
+    --Open:'Open Sans', sans-serif;
+    --Oswald:'Oswald', sans-serif;
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+}
+
+#main{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.search-bar{
+    width: 62vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.685);
+    box-shadow: 2px 0 -2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px;
+    border-radius: 5px;
+}
+.bar{
+    display: flex !important;
+    align-items: center !important;
+}
+.search-icon{
+    background-color: #dddddd67 !important;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+.field input{
+    margin-right: 5px;
+    padding-left: 10px;
+    width: 55vw;
+    min-height: 30px;
+    border: -2px solid white;
+    border-radius: 5px;
+}
+.field input::placeholder{
+    color: grey;
+}
+.field input:focus { 
+    outline: none !important;
+    border-color: var(--my-black);
+    box-shadow: 0 0 2px var(--my-black);
+}
+
+.frame-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-video{
+    margin: auto;
+    width:1080px;
+    height:650px ;
+}
+.active-content{
+    width: 1080px;
+    border: 2px white solid;
+    padding: 5px 0;
+    border-radius: 2px;
+    background-color: var(--my-white);
+    color: var(--my-black);
+    margin-bottom: 20px;
+}
+@media (max-width:1300px){
+    
+    .selected-video{
+        margin: auto;
+        width:660px; 
+        height:420px ;
+    }
+    .active-content{
+        width: 660px;
+    }
+
+}
+
+@media (max-width:991px){
+    #main{
+        width: 90vw;
+    }
+    .search-bar{
+        width: 85vw;
+    }
+    .field input{
+        padding-left: 10px;
+        width: 78vw;
+    }
+    .selected-video{
+        margin: auto;
+        width:640px; 
+        height:420px ;
+    }
+    .active-content{
+        width: 640px;
+    }  
+}
+
+@media (max-width:768px){
+    #main{
+        width: 92vw;
+    }
+    .search-bar{
+        width: 88vw;
+    }
+    .field input{
+        padding-left: 10px;
+        width: 74vw;
+    }
+    .selected-video{
+        margin: auto;
+        width:420px; 
+        height:300px ;
+    }
+    .active-content{
+        width: 420px;
+    }
+}
+@media (max-width:450px){
+    .icon-bar a {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .selected-video{
+        margin: auto;
+        width:90vw; 
+        height:30vh;
+    }
+    .active-content{
+        width: 90vw;
+    }   
+
+}
+
