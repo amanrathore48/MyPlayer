@@ -23,6 +23,8 @@ function App() {
             videos: response.data.items,
             selectedVideo: null
         });
+        console.log(response.data.items);
+        
     };
     const onVideoSelect = (video) => {
         setPlay({ 
@@ -39,6 +41,7 @@ function App() {
             </div>            
         </div>
     );
+
 }
 
 

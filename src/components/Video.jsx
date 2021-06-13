@@ -1,12 +1,11 @@
-import './Item.css';
+import './Video.css';
 import './styles.css';
 import React from 'react';
 
 
 
 
-const VideoItem = ({ video, onVideoSelect }) => {
- 
+const Video = ({ video, onVideoSelect }) => {
   
     return (
         <div className="list-container">
@@ -20,4 +19,4 @@ const VideoItem = ({ video, onVideoSelect }) => {
     );
 };
 
-export default VideoItem;
+export default Video;

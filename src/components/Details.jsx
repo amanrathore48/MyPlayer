@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 
-const VideoDetail = ({ video }) => {
+const Detail = ({ video }) => {
     if (!video)
         return <div></div>
 
@@ -23,4 +23,4 @@ const videoSrc = 'https://www.youtube.com/embed/'+video.id.videoId;
 
 };
 
-export default VideoDetail;
+export default Detail;

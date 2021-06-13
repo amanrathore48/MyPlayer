@@ -20,13 +20,12 @@ function Search(props) {
     }
     return (
         <div className="search-bar">
-            <form className="ui form" onSubmit={onFormSubmit}>
+            <form onSubmit={onFormSubmit}>
                 <div className="field">
                     <div className="bar">
                         <input type="text" spellCheck="false" placeholder="YouTube Search" value={term.input} onChange={onInputChange} />
                         <IconButton 
                             label="Submit"
-                            primary={true}
                             onClick={onFormSubmit}
                             className="search-icon">
                             <SearchIcon />

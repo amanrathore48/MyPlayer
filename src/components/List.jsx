@@ -4,7 +4,7 @@ import Video from './Video';
 
 
 
-const VideoList = (props) => {
+const List = (props) => {
 
     const showList = props.videos.map(
         video => <Video video={video} onVideoSelect={props.onVideoSelect} key={video.id.videoId} />
@@ -15,4 +15,4 @@ const VideoList = (props) => {
 };
 
 
-export default VideoList;
+export default List;
