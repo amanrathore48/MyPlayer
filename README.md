@@ -31,7 +31,7 @@ Your app is ready to be deployed!
 
 ## Get Your API Key from Google Developer Console 
 ## Fetch the API using axios 
-### `npm start`
+### `npm install axios`
 
 ## Learn More
 
