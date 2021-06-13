@@ -1,8 +1,4 @@
-# React App With Youtube API 3..
---Get Your API Key from Google Developer Console 
---fetch the API using axios (### npm install axios)
-
-
+# React App Using Youtube API 3
 
 # Getting Started with Create React App
 
@@ -35,7 +31,7 @@ Your app is ready to be deployed!
 
 ## Get Your API Key from Google Developer Console 
 ## fetch the API using axios 
-install the package by- ### npm install axios
+### `npm start`
 
 ## Learn More
 
