@@ -1,4 +1,4 @@
-import './VideoItem.css';
+import './Item.css';
 import './styles.css';
 import React from 'react';
 
